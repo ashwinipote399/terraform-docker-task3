@@ -1,0 +1,23 @@
+Terraform v1.17.0
+on linux_amd64
++ provider registry.terraform.io/kreuzwerker/docker v3.9.0
+
+[32m[1mSuccess![0m The configuration is valid.
+[0m
+docker_container.nginx
+docker_image.nginx
+CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS         PORTS                  NAMES
+bc2607713303   a3554c0d0b48   "/docker-entrypoint.…"   4 minutes ago   Up 4 minutes   0.0.0.0:8080->80/tcp   terraform-nginx
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   896    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Server: nginx/1.31.8
+Date: Mon, 26 Oct 2026 13:41:03 GMT
+Content-Type: text/html
+Content-Length: 896
+Last-Modified: Wed, 21 Oct 2026 17:54:44 GMT
+Connection: keep-alive
+ETag: "6ad8fc64-380"
+Accept-Ranges: bytes
+
